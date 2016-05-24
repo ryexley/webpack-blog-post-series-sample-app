@@ -4,7 +4,7 @@
   "description": "A sample app to support a series of blog posts on using webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js --progress"
+    "build": "./node_modules/.bin/webpack --config webpack.config.js --progress"
   },
   "author": "Bob Yexley",
   "license": "MIT",
